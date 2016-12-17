@@ -1,4 +1,4 @@
-body {background-color:#99CCFF
+body {background-color:#57b4e0
 }
 h1,h2,h3,h4 {
   text-align: center;
@@ -15,7 +15,7 @@ h1,h2,h3,h4 {
 h1,h2,h3,h4,h5,h6,a{
     line-height: 170%;
 }
-p{
+p,li{
    font-family: "Luxi Sans", serif;
     font-size: 120%;
 }
@@ -23,8 +23,16 @@ body{
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
-    margin-left: 80px;
+    margin-left: 150px;
 }
+p,li{
+  text-justify: center;    
+  padding: 10px 150px
+    margin:10px 150px
+}
+p{ 
+  font-family:all bold;
+ }
 .center {
     text-align: center;
     border: 3px solid green;
@@ -63,10 +71,27 @@ a:visited {
 }
 
 a:hover {
-   background-color: #5d4412;
+   background-color: #2283c9;
    color: white;
 }
 
 a:active {
    text-decoration: underline;
 }
+
+.current {
+  background-color: blue;
+}
+
+.htm{
+  text-align: center;
+   margin: auto;
+}
+
+
+
+
+
+
+
+
